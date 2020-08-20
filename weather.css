@@ -1,0 +1,50 @@
+.background {
+    border: 1px solid black;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: 100px auto 50px;
+}
+
+.container__top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.weather {
+    width: 40%;
+    margin: 10px auto;
+}
+
+.hmy {
+    float: left;
+    margin-right: 20px;
+}
+
+.city {
+    width: 60%;
+}
+.container__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news {
+    width: 40%;
+    border-right: 1px solid black;
+    margin: 10px 0px;
+    padding: 0 20px;
+}
+
+.forecast {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
